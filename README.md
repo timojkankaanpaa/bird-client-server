@@ -10,7 +10,7 @@
 
 ## To run the server
 
-## mvn install (in root folder)
+## mvn install (projektin juurikansiossa, jossa pom.xml on)
 
 ## mvn package
 
