@@ -4,16 +4,16 @@ import ReactTable from "react-table-v6";
 import 'react-table-v6/react-table.css';
 
 const columns = [{
-    Header: 'Lintu',
+    Header: 'Bird',
     accessor: 'birdid' // String-based value accessors!
   }, {
-    Header: 'Paikka',
+    Header: 'Place',
     accessor: 'place',
   }, {
-    Header: 'Aika',
+    Header: 'Time',
     accessor: 'time',
   }, {
-    Header: 'Käyttäjä',
+    Header: 'User',
     accessor: 'user',
   }]
 

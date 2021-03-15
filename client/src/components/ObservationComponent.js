@@ -3,20 +3,20 @@ import React from 'react';
 const ObservationComponent =(props)=>{
     //console.log(props.theBirds);
 
-    //luetaan linnut taulukosta ja laitetaan option elementtiin
+    //read birds from array and add to option elements
     const birdOptions =props.theBirds.map((bird, index)=>{
-        return <option key={parseInt(index)} value={bird.id}>{bird.finnish}</option>
+        return <option key={parseInt(index)} value={bird.id}>{bird.english}</option>
     })
 
     return(
         <div>
-            <h2>Tallenna lintuhavainto</h2>
+            <h2>Save a bird observation</h2>
             <table style={{marginLeft: '45%'}}>
-            <tr><td>Lintu</td><td><select onChange={e=>props.change(e)} name="birdid">{birdOptions}</select></td></tr>
-            <tr><td>Paikka</td><td><input onChange={e=>props.change(e)} name="place" value={props.observation.place} type="text"></input></td></tr>
-            <tr><td>Aika</td><td><input onChange={e=>props.change(e)} name="time" value={props.observation.time} type="text"></input></td></tr>
-            <tr><td>Käyttäjä</td><td><input onChange={e=>props.change(e)} name="user" value={props.observation.user} type="text"></input></td></tr>
-            <tr><td><button onClick={props.submit}>Tallenna</button></td></tr>
+            <tr><td>Bird</td><td><select onChange={e=>props.change(e)} name="birdid">{birdOptions}</select></td></tr>
+            <tr><td>Place</td><td><input onChange={e=>props.change(e)} name="place" value={props.observation.place} type="text"></input></td></tr>
+            <tr><td>Time</td><td><input onChange={e=>props.change(e)} name="time" value={props.observation.time} type="text"></input></td></tr>
+            <tr><td>User</td><td><input onChange={e=>props.change(e)} name="user" value={props.observation.user} type="text"></input></td></tr>
+            <tr><td><button onClick={props.submit}>Save</button></td></tr>
             </table>
             
         </div>

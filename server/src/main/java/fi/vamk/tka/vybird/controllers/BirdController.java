@@ -22,7 +22,7 @@ public class BirdController {
     @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/birds_fi")
     public Iterable<Bird> getAllFinnish() {
-        return repository.findByOrderByFinnish();
+        return repository.findByOrderByEnglish();
     }
 
 }

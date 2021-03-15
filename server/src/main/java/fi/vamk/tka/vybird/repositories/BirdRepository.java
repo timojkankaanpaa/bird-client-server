@@ -7,5 +7,5 @@ import org.springframework.data.repository.CrudRepository;
 import fi.vamk.tka.vybird.entities.Bird;
 
 public interface BirdRepository extends CrudRepository<Bird, Integer> {
-    List<Bird> findByOrderByFinnish();
+    List<Bird> findByOrderByEnglish(); // ...ByFinnish, ...BySwedish
 }
