@@ -1,0 +1,10 @@
+/server/target
+/client/node_modules
+/server/src/main/resources/application.properties
+/server/bin
+.classpath
+.project
+/.settings
+/.vscode
+/server/.vscode
+/server/.settings
