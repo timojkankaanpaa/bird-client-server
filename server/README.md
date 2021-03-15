@@ -14,6 +14,6 @@
 
 ## mvn package
 
-## java -jar target/bird-0.0.1-SNAPSHOT.jar
+## java -jar target/bird-0.0.1-SNAPSHOT.jar or mvn spring-boot:run
 
-## Aja selaimella http://localhost:8080/index.html
+## Use browser http://localhost:8080/index.html

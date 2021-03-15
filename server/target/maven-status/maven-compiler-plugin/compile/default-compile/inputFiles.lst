@@ -1,0 +1,7 @@
+/home/tka/temp/bird-client-server/server/src/main/java/fi/vamk/tka/vybird/controllers/ObservationController.java
+/home/tka/temp/bird-client-server/server/src/main/java/fi/vamk/tka/vybird/repositories/BirdRepository.java
+/home/tka/temp/bird-client-server/server/src/main/java/fi/vamk/tka/vybird/entities/Bird.java
+/home/tka/temp/bird-client-server/server/src/main/java/fi/vamk/tka/vybird/controllers/BirdController.java
+/home/tka/temp/bird-client-server/server/src/main/java/fi/vamk/tka/vybird/repositories/ObservationRepository.java
+/home/tka/temp/bird-client-server/server/src/main/java/fi/vamk/tka/vybird/VyBirdApplication.java
+/home/tka/temp/bird-client-server/server/src/main/java/fi/vamk/tka/vybird/entities/Observation.java
