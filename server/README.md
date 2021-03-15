@@ -2,15 +2,15 @@
 
 ## To build the client
 
-## npm install (siirry ensin client-kansioon)
+## npm install (first move to client-folder)
 
 ## npm run build
 
-## cp -r build/\* ../src/main/resources/static (kopio clientin koodi serverille clientiksi)
+## cp -r build/\* ../src/main/resources/static (copy clientin to server static code)
 
 ## To run the server
 
-## mvn install (projektin juurikansiossa, jossa pom.xml on)
+## mvn install (in root folder of server, where pom.xml exists)
 
 ## mvn package
 
