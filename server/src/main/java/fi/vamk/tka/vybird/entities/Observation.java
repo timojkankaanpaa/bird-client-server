@@ -58,4 +58,10 @@ public class Observation {
         this.user = user;
     }
 
+    @Override
+    public String toString() {
+        return "{" + " id='" + getId() + "'" + ", birdid='" + getBirdid() + "'" + ", place='" + getPlace() + "'"
+                + ", time='" + getTime() + "'" + ", user='" + getUser() + "'" + "}";
+    }
+
 }
