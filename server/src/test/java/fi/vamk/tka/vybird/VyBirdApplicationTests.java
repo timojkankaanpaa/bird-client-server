@@ -102,4 +102,12 @@ class VyBirdApplicationTests {
 				.andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
 				.andExpect(jsonPath("$[0].place", is("Tampere")));
 	}
+
+	// create test /observation/1
+
+	// create test where you test that the server actually return JSON
+
+	// create test /bird/1
+
+	// create test that /birds actually return JSON data
 }
