@@ -110,4 +110,6 @@ class VyBirdApplicationTests {
 	// create test /bird/1
 
 	// create test that /birds actually return JSON data
+	
+	//update the controllers so that ane method returns either JSON or XML based on client's Accept request header
 }
