@@ -86,6 +86,7 @@ class VyBirdApplicationTests {
 		// }
 		mvc.perform(get("/observations")).andDo(print()).andExpect(status().isOk())
 				.andExpect(content().string(containsString("Tampere")));
+		repository.delete(saved);
 	}
 
 	@Test
@@ -101,6 +102,7 @@ class VyBirdApplicationTests {
 		mvc.perform(get("/observations").contentType(MediaType.APPLICATION_JSON)).andExpect(status().isOk())
 				.andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
 				.andExpect(jsonPath("$[0].place", is("Tampere")));
+		repository.delete(saved);
 	}
 
 	// create test /observation/1
@@ -110,6 +112,7 @@ class VyBirdApplicationTests {
 	// create test /bird/1
 
 	// create test that /birds actually return JSON data
-	
-	//update the controllers so that ane method returns either JSON or XML based on client's Accept request header
+
+	// update the controllers so that ane method returns either JSON or XML based on
+	// client's Accept request header
 }
